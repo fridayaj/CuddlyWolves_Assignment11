@@ -1,6 +1,3 @@
-
-
-?
 # Name: Kayla Wilson, Adian Friday, Alexis Tipkemper-Sparks, Jared Rababy
 # email:  wilso5ky@mail.uc.edu, fridayaj@mail.uc.edu, rababyjd@mail.uc.edu, tipkemam@mail.uc.edu
 # Assignment Number: Assignment 11  
