@@ -17,6 +17,7 @@ from srcPackage.utils import round_price, write_csv
 from srcPackage.api_handler import fetch_zip_code
 
 class DataCleaner:
+
     def __init__(self, filename):
         self.filename = filename
         self.anomalies = []
@@ -25,7 +26,7 @@ class DataCleaner:
     def clean_row(self, row):
         """Clean each row by ensuring pricing format, handling anomalies, and fetching zip codes."""
         try:
-            # Ensure Gross Price has 2 decimal places
+            # Makes "Gross Price" round to 2 decimal places
             if "Gross Price" in row:
                 row["Gross Price"] = round_price(row["Gross Price"])
 
@@ -57,7 +58,7 @@ class DataCleaner:
                 city = address_parts[1].strip().rstrip(',')  # Remove trailing comma if present
                 state_zip = address_parts[2].strip()
 
-                # Extract state and zip code (if available)
+                # Extract state and zip code
                 state_zip_parts = state_zip.split(" ")
                 row["State"] = state_zip_parts[0]
 
