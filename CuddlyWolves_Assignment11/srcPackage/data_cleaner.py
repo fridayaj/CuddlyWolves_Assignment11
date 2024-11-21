@@ -1,3 +1,14 @@
+# Name: Kayla Wilson, Adian Friday, Alexis Tipkemper-Sparks, Jared Rababy
+# email:  wilso5ky@mail.uc.edu, fridayaj@mail.uc.edu, rababyjd@mail.uc.edu, tipkemam@mail.uc.edu
+# Assignment Number: Assignment 11  
+# Due Date:   11/21/24
+# Course #/Section:   IS4010
+# Semester/Year:   Fall 2024
+# Brief Description of the assignment: Torture 
+# Brief Description of what this module does: Learning to use api and connecting to CSV files 
+# Citations: Chatgpt 
+# Anything else that's relevant: Naur 
+
 # data_cleaner.py
 
 
